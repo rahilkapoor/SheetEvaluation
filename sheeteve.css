@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 5px;
+	padding: 2px;
+	align-content: center;
+	text-align: center;
+	background: white;
+}
+.left{
+	background: #333;
+  	height: 100%;
+  	width: 50%;
+  	position: absolute;
+  	left: 0;
+  	top: 0;
+  	color: white;
+}
+#can{
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	margin: 30px;
+	background: rebeccapurple;
+	border: 2px dashed #ccc;
+	color: #ccc;
+	text-align: center;
+}
+#uploader{
+	background: green;
+	margin: 20px;
+	position: absolute;
+	bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.vl {
+  	border-left: 6px solid white;
+  	height: 100%;
+  	position: absolute;
+  	left: 50%;
+  	margin-left: -3px;
+  	top: 0;
+}
+.right{
+	background: #333;
+  	height: 100%;
+  	width: 50%;
+  	position: absolute;
+  	right: 0;
+  	top: 0;
+  	color: white;
+}
